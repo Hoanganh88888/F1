@@ -1,0 +1,16 @@
+{
+  "name": "facebook-monitor-bot",
+  "version": "1.0.0",
+  "description": "Monitor Facebook status with Telegram notification",
+  "main": "api/monitor.js",
+  "scripts": {
+    "start": "node api/monitor.js",
+    "test": "node api/monitor.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "keywords": ["facebook", "monitor", "telegram", "vercel"],
+  "author": "Your Name",
+  "license": "MIT"
+}
